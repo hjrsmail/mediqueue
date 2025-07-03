@@ -1,4 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏥 mediqueue — Sistem Informasi Antrian Rumah Sakit
+
+**mediqueue** adalah aplikasi berbasis web yang dirancang untuk membantu rumah sakit dalam mengelola sistem antrian pasien secara efisien dan modern. Aplikasi ini dibangun menggunakan [Next.js](https://nextjs.org) dan teknologi web terkini.
+
+---
+
+## 🚀 Fitur Utama
+
+- ✅ Pendaftaran pasien secara online
+- ✅ Nomor antrian otomatis
+- ✅ Panel admin untuk mengatur jadwal dan layanan
+- ✅ Tampilan real-time antrian
+- ✅ Halaman login untuk admin & staf
+
+---
+
+## 🧑‍💻 Teknologi yang Digunakan
+
+| Teknologi | Keterangan |
+|----------|------------|
+| Next.js  | Framework React untuk SSR dan routing |
+| Tailwind CSS | Styling modern dan responsif |
+| Prisma ORM | Interaksi database yang mudah |
+| PostgreSQL | Basis data utama |
+| Vercel | Deployment otomatis & gratis |
+
+---
 
 ## Getting Started
 
