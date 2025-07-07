@@ -1,0 +1,32 @@
+{
+  "editor.fontFamily": "Fira Code, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.fontWeight": "400",
+  "editor.tabSize": 3,
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "rules": {
+      "type": { "fontStyle": "italic" },
+      "class": { "fontStyle": "italic" },
+      "interface": { "fontStyle": "italic" },
+      "typeParameter": { "fontStyle": "italic" },
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+      "scope": [
+        "storage.type",
+        "support.type.primitive",
+        "entity.name.type",
+        "variable.language",
+        "variable.other.constant"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    }
+    ]
+  }
+}
