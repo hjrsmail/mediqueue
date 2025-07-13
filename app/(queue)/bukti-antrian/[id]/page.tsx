@@ -3,13 +3,14 @@ import { QueueEvidence } from "@/components/queue/QueueEvidence";
 import { prisma } from "@/lib/prisma";
 import { notFound } from "next/navigation";
 
-interface PageProps {
+interface BuktiAntrianPageProps {
     params: {
         id: string;
+
     };
 }
 
-export default async function BuktiAntrian({ params }: PageProps) {
+export default async function BuktiAntrian({ params }:  BuktiAntrianPageProps) {
 
     const { id } = params;
 
