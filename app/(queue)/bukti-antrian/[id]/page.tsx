@@ -11,7 +11,7 @@ interface PageProps {
 
 export default async function BuktiAntrian({ params }: PageProps) {
 
-    const { id } = await params;
+    const { id } = params;
 
     const antrian = await prisma.antrian.findUnique({
         where: { id },
