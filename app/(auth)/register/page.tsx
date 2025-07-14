@@ -3,6 +3,8 @@ import { RegisterForm } from "@/components/auth/RegisterForm"
 import { prisma } from "@/lib/prisma";
 import { redirect } from "next/navigation"
 
+export const dynamic = "force-dynamic";
+
 export default async function RegisterPage() {
   const setting = await prisma.setting.findUnique({
     where: { key: "registration" },
